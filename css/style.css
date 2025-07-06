@@ -1,0 +1,31 @@
+.image1{
+    height: 3.5rem;
+    width: auto;
+}
+
+.image2{
+    height: 26rem;
+    width: auto;
+}
+
+.h2-1{
+    margin-top: 2rem;
+    padding-left: 10%;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.btn1{
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 12%;
+}
+
+.description{
+    margin-top: 2rem;
+    padding-left: 15%;
+    font-size: 1.2rem;
+    font-weight: 500;
+}

@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    height: 3rem;
+}
+
+button{
+    padding: 0.5rem 1rem !important;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: rgba(210, 212, 212, 0.925) !important;
+    transition: transform 0.3s ease-in-out !important;
+}
+
+button:hover{
+    transform: scale(1.05);
+    background-color: rgba(210, 212, 212, 0.589) !important;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.2);
+}
