@@ -8,7 +8,7 @@
 .left,
 .middle,
 .right {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     max-width: 100%;
 }
@@ -23,6 +23,15 @@
 .user-details {
     font-size: large;
     font-weight: 400;
+}
+
+.logout2{
+    align-items: center;
+    width: 100%;
+}
+.logo-container {
+    width: 100%;
+    margin-top: 1rem;
 }
 
 .logo {
@@ -45,12 +54,12 @@
 
 }
 
-.selector{
+.selector {
     height: 15px;
     width: 15px;
 }
 
-.log-out-btn{
+.log-out-btn {
     height: 100%;
     width: 100%;
     display: flex;
@@ -61,21 +70,91 @@
     margin-left: 1rem;
 }
 
+.btn2{
+    background-color: white;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+.btn {
+    background-color: rgb(224, 224, 224);
+    border: 1px solid rgba(126, 126, 126, 0.788) !important;
+    transition: transform 0.3s ease-in-out;
+}
+
 .btn:hover {
-    transform: scale(1.10);
-    background-color: rgba(187, 187, 187, 0.363);
+    transform: scale(1.05);
+    background-color: rgb(214, 214, 214);
     cursor: pointer;
 }
 
-.sub-btn{
+.sub-btn {
     margin-left: 2rem;
     width: 100%;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.img2 {
+    height: 1.7rem;
+    width: 1.7rem;
+}
+
+.home {
+    width: 100%;
+}
+
+.question {
+    width: 100%;
+}
+
+.card {
+    background-color: rgba(241, 241, 241, 0.945);
+    box-shadow: 0px 1px 5px 1px rgb(173, 168, 168);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+}
+
+.articles {
+    gap: 1rem;
+}
+
+.card2 {
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.card2:hover {
+    box-shadow: 0px 1px 5px 1px rgb(173, 168, 168);
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.right {
+    font-size: smaller;
+}
+
+
 
 @media(min-width: 992px) {
+
     .layout {
         grid-template-columns: 1fr 2fr 1fr;
+    }
+
+    .left,
+    .middle,
+    .right {
+        height: 100vh;
+        width: 100%;
+        max-width: 100%;
     }
 
     .user-details {
@@ -97,4 +176,6 @@
         font-weight: 600;
         transition: font-weight 0.3s ease-in-out;
     }
+
+
 }
