@@ -87,6 +87,20 @@ a {
 
 .side-nav {
     overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.layout.collapsed .side-nav {
+    width: 2.5rem;
+    overflow: hidden; /* Ensures nothing leaks out */
+}
+
+.layout.collapsed .functionalities {
+    display: none !important; /* Enforces hiding */
+}
+
+.side-nav {
+    overflow: hidden;
     transition: width 0.3s ease;
 }
 
@@ -100,10 +114,38 @@ a {
     gap: 1rem;
     margin-top: 7rem;
 }
-@media(min-width: 991.8){
-    .img1{
-        transform: rotate(0deg);
+
+.acc{
+    height: 100px;
+    width: 100px;
+}
+
+.img2{
+    height: 50px;
+    width: 50px;
+}
+
+@media (min-width: 991.8px) {
+    .layout:not(.collapsed) .functionalities {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 7rem;
     }
+}
+
+.side-nav {
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+/* Show on small screens when menu is toggled */
+.functionalities.show {
+    display: flex !important;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 7rem;
+    
 }
 
 @media (max-width: 992px) {
@@ -119,15 +161,18 @@ a {
 
     .side-nav {
         width: 100%;
+        height: auto;
     }
 
     .functionalities {
         display: none;
+        
     }
 
     .functionalities.show {
         display: flex;
         flex-direction: column;
         gap: 1rem;
+        
     }
 }

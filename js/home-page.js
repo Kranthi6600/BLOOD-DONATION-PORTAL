@@ -1,15 +1,14 @@
 const img1 = document.querySelector('.img1');
 const sideNav = document.querySelector('.side-nav');
 const menu = document.querySelector('.functionalities');
-
-const layout = document.querySelector('.layout'); // add this if missing
+const layout = document.querySelector('.layout');
 
 img1.addEventListener('click', () => {
   const isDesktop = window.innerWidth >= 992;
 
   if (isDesktop) {
     sideNav.classList.toggle('collapsed');
-    layout.classList.toggle('collapsed'); // ✅ Add this line back
+    layout.classList.toggle('collapsed');
 
     if (sideNav.classList.contains('collapsed')) {
       menu.classList.remove('show');
@@ -22,7 +21,6 @@ img1.addEventListener('click', () => {
 });
 
 
-// Handle page load state
 window.addEventListener('DOMContentLoaded', () => {
   const isDesktop = window.innerWidth >= 992;
 
@@ -35,7 +33,6 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-// Optional: handle window resize to update layout dynamically
 window.addEventListener('resize', () => {
   const isDesktop = window.innerWidth >= 992;
 
