@@ -59,6 +59,7 @@ input:focus {
 }
 
 .btn:hover {
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.2);
     background-color: #fffefed2 !important;
     border-color: rgba(0, 0, 0, 0.795) !important;
     transform: scale(1.05) !important;  

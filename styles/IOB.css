@@ -1,0 +1,36 @@
+.commentsofblood {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
+}
+
+.commentsofblood2 {
+    font-size: x-large;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.blooddrop {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 0.3rem;
+}
+
+.bloodgroups {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+li {
+    margin-top: 1rem;
+    font-size: medium;
+}

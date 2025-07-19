@@ -1,0 +1,18 @@
+.table{
+    border: 1px solid rgba(122, 114, 114, 0.322) !important;
+}
+
+.view{
+    display: flex;
+    align-items: center;
+    
+}
+
+.hamburger{
+    height: 10px;
+    width: 10px;
+}
+
+.donorlisth2{
+    margin-bottom: 2rem;
+}
