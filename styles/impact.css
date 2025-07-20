@@ -4,7 +4,7 @@
     border: 1px solid rgb(0, 0, 0) !important;
 }
 
-.container{
+.profile{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,3 +12,64 @@
     padding: 2rem;
 }
 
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem !important;
+}
+
+.card {
+    border-radius: 3rem !important;
+    margin: 1rem;
+    width: 20rem;
+}
+
+.articles{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.btn{
+    border: 1px solid black !important;
+    box-shadow: 1px 1px 5px 1px rgba(68, 59, 59, 0.432);
+}
+
+.high{
+    padding: 0.5rem;
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 1rem;
+}
+
+.resueimg{
+    height: 50px;
+    width: 100px;
+}
+
+.elements{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.AAA{
+    margin-top: 2rem !important;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.teamimg{
+    height: 200px;
+    width: 290px;
+}
+
+.info{
+    margin-top: 1rem;
+    font-size: medium;
+}

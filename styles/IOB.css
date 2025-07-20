@@ -34,3 +34,17 @@ li {
     margin-top: 1rem;
     font-size: medium;
 }
+
+.brief-info {
+    display: none !important;
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+.show-info {
+    border-radius: 1rem;
+    border: 1.5px solid black;
+    display: block !important;
+    padding: 0.5rem;
+}
