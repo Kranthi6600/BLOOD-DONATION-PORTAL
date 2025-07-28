@@ -1,31 +1,54 @@
-.image1{
+.image1 {
     height: 3.5rem;
     width: auto;
 }
 
-.image2{
+.image2 {
     height: 26rem;
     width: auto;
 }
 
-.h2-1{
+.h2-1 {
     margin-top: 2rem;
     padding-left: 10%;
     font-size: 2rem;
     font-weight: 700;
 }
 
-.btn1{
+.btn1 {
     width: 10rem;
     height: 3rem;
     font-size: 1.2rem;
     font-weight: 600;
-    margin-left: 12%;
+    margin-left: 30%;
 }
 
-.description{
+.description {
     margin-top: 2rem;
-    padding-left: 15%;
+    padding-left: 10%;
     font-size: 1.2rem;
     font-weight: 500;
+}
+
+@media (max-width: 992px) {
+    .image1 {
+        height: 2.5rem;
+        width: auto;
+    }
+
+    .title-heading {
+        font-size: large;
+    }
+
+    .btn {
+        margin-top: 3rem;
+    }
+
+    .btn1 {
+        width: 7rem;
+        height: 3rem;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin-left: 40%;
+    }
 }

@@ -51,3 +51,12 @@ input::placeholder{
 h2 {
     text-decoration: underline;
 }
+
+input:focus {
+    box-shadow: 0 4px 6px 5px rgba(201, 201, 201, 0.548) !important;
+    border-color: black !important;
+}
+
+input::placeholder{
+    color: rgba(129, 129, 129, 0.644) !important;
+}

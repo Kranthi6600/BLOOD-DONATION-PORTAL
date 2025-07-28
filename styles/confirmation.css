@@ -7,6 +7,7 @@ h1{
 }
 
 .buttons{
+    
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -15,6 +16,7 @@ h1{
 }
 
 button{
+    font-weight: 500 !important;
     padding: 0.5rem 1rem !important;
     font-size: 1.2rem;
     border-radius: 10px;
@@ -26,4 +28,12 @@ button:hover{
     transform: scale(1.05);
     background-color: rgba(210, 212, 212, 0.589) !important;
     box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.confirmation{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
 }
