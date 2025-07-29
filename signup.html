@@ -12,7 +12,7 @@
 <body>
     <div class="container border rounded mt-5 shadow-lg">
         <h2 class="d-flex justify-content-center mt-3">SIGN UP</h2>
-        <form class="px-4 py-3">
+        <form class="px-4 py-3" id="signup-form">
             <div class="mb-3">
                 <label class="form-label">First Name</label>
                 <input type="text" class="form-control" placeholder="dj">
@@ -33,8 +33,12 @@
                 <label class="form-label">Confirm Password</label>
                 <input type="password" class="form-control" placeholder="Password">
             </div>
+
+            <div id="message"></div>
+
             <div class="btn1 d-flex justify-content-center">
-                <button type="button" class=" btn border" onclick="window.location.href='success-sign-up.html'">Sign up</button>
+                <button type="button" class=" btn border" onclick="window.location.href='success-sign-up.html'">Sign
+                    up</button>
             </div>
 
         </form>
@@ -43,6 +47,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/signup.js"></script>
 </body>
 
 </html>

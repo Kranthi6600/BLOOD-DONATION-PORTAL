@@ -163,6 +163,10 @@ a {
         height: 30px;
         width: 30px;
     }
+
+    .title {
+        margin-top: 1rem !important;
+    }
 }
 
 .side-nav {
@@ -202,7 +206,7 @@ a {
         display: none;
     }
 
-    .title{
+    .title {
         border-radius: 1rem;
     }
 }
