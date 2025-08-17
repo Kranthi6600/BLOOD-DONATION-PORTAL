@@ -51,4 +51,11 @@
         font-weight: 600;
         margin-left: 40%;
     }
+
+    .description {
+        margin-top: 2rem;
+        padding-left: 10%;
+        font-size: 14px;
+        font-weight: 300;
+    }
 }
