@@ -1,3 +1,10 @@
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to left, #8B0000, #FF6347);
+}
+
+
 h1{
     text-align: center;
     font-size: 2rem;
@@ -7,7 +14,6 @@ h1{
 }
 
 .buttons{
-    
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -20,13 +26,13 @@ button{
     padding: 0.5rem 1rem !important;
     font-size: 1.2rem;
     border-radius: 10px;
-    background-color: rgba(210, 212, 212, 0.925) !important;
+    background-color: rgba(229, 235, 235, 0.925) !important;
     transition: transform 0.3s ease-in-out !important;
 }
 
 button:hover{
     transform: scale(1.05);
-    background-color: rgba(210, 212, 212, 0.589) !important;
+    background-color: rgba(228, 228, 228, 0.918) !important;
     box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.2);
 }
 

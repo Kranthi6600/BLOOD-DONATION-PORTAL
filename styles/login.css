@@ -1,34 +1,30 @@
-body{
+body {
     height: 100%;
     width: 100%;
+    background: linear-gradient(to left, #8B0000, #FF6347);
 }
 
-.image1{
+.image1 {
     height: 3.5rem;
     width: auto;
 }
 
-input::placeholder{
+input::placeholder {
     color: rgba(129, 129, 129, 0.644) !important;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 7rem ;
+    margin-top: 7rem;
     font-weight: 500;
     background-color: rgba(233, 231, 233, 0.589);
     transition: transform 0.3s ease-in-out;
     box-shadow: 0 0px 15px 3px rgba(167, 167, 167, 0.575);
-    width: 90%; 
-    max-width: 500px;   
+    width: 90%;
+    max-width: 500px;
 }
-
-.container:hover {
-    box-shadow: 0 0px 15px 3px rgba(167, 167, 167, 0.747);
-    transform: scale(1.02);
-}   
 
 .container1 {
     margin-top: 2rem;
@@ -47,7 +43,7 @@ input:focus {
     border-color: black !important;
 }
 
-.form-check-input{
+.form-check-input {
     border-color: rgba(0, 0, 0, 0.795) !important;
 }
 
@@ -55,12 +51,80 @@ input:focus {
     border: 1px solid rgba(0, 0, 0, 0.795) !important;
     background-color: #f0f0f0ce !important;
     margin-top: 10px;
-    transition: transform 0.3s ease-in-out ;
+    transition: transform 0.3s ease-in-out;
 }
 
 .btn:hover {
     box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.2);
     background-color: #fffefed2 !important;
     border-color: rgba(0, 0, 0, 0.795) !important;
-    transform: scale(1.05) !important;  
+    transform: scale(1.05) !important;
+}
+
+.pswd {
+    position: relative;
+}
+
+.pswd .eye-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-10%);
+    cursor: pointer;
+    font-size: 20px;
+    color: #666;
+}
+
+.form-input {
+    width: 203%;
+}
+
+
+@media (max-width: 1100px) {
+    .form-input {
+        width: 200%;
+    }
+}
+
+@media (max-width: 992px) {
+    .form-input {
+        width: 205%;
+    }
+}
+
+
+@media (max-width: 540px) {
+    .form-input {
+        width: 197%;
+    }
+}
+
+@media (max-width: 430px) {
+    .form-input {
+        width: 150%;
+    }
+}
+
+@media (max-width: 414px) {
+    .form-input {
+        width: 140%;
+    }
+}
+
+@media (max-width: 390px) {
+    .form-input {
+        width: 130%;
+    }
+}
+
+@media (max-width: 375px) {
+    .form-input {
+        width: 124%;
+    }
+}
+
+@media (max-width: 354px) {
+    .form-input {
+        width: 112%;
+    }
 }

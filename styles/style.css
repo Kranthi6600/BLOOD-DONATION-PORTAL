@@ -1,3 +1,10 @@
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to left, #8B0000, #FF6347);
+    color: white;
+}
+
 .image1 {
     height: 3.5rem;
     width: auto;

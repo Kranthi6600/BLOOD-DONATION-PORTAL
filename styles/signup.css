@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(to left, #8B0000, #FF6347);
+}
+
 #signup-form {
     display: flex;
     flex-direction: column;
@@ -27,16 +31,13 @@ input::placeholder {
 }
 
 .container {
+    background-color: white;
     margin-top: 1rem !important;
     max-width: 600px;
     height: auto;
     transition: transform 0.3s ease-in-out;
 }
 
-.container:hover {
-    box-shadow: 0px 0px 15px 2px rgba(95, 95, 95, 0.247) !important;
-    transform: scale(1.01);
-}
 
 .btn {
     margin: 20px;
@@ -142,6 +143,19 @@ input::placeholder {
         margin: 20px;
     }
 
+    .pswd {
+        position: relative;
+    }
+
+    .pswd .eye-icon {
+        position: absolute;
+        right: 15px;
+        top: 0%;
+        transform: translateY(-10%);
+        cursor: pointer;
+        font-size: 20px;
+        color: #666;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -267,7 +281,7 @@ input::placeholder {
 
     .pswd .eye-icon {
         position: absolute;
-        right: 25px;
+        right: 5px;
         top: 60%;
         transform: translateY(-10%);
         cursor: pointer;

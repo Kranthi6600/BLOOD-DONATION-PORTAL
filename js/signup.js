@@ -3,7 +3,7 @@ const signupForm = document.getElementById('signup-form');
 const showMessage = (msg, type) => {
     const messageDiv = document.getElementById('message');
     messageDiv.textContent = msg;
-    messageDiv.style.color = type === 'error' ? 'rgba(255, 49, 49, 0.836)' : 'green';
+    messageDiv.style.color = type === 'error' ? 'rgba(255, 49, 49, 0.836)' : 'rgba(40, 173, 40, 0.9)';
     if (type === 'success') {
         setTimeout(() => {
             messageDiv.textContent = '';
