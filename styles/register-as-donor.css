@@ -1,4 +1,5 @@
 .form-label {
+    font-size: larger;
     font-weight: 500;
 }
 
@@ -22,8 +23,10 @@ input::placeholder {
 
 
 .btn {
+    text-align: center !important;
+    padding: 10px 25px !important;
     color: black !important;
-    border: 1px solid rgba(0, 0, 0, 0.795) !important;
+    border: 1px solid rgba(85, 84, 84, 0.795) !important;
     background-color: #ffffff9f !important;
     transition: transform 0.3s ease-in-out !important;
 }
@@ -35,33 +38,33 @@ input::placeholder {
     transform: scale(1.05);
 }
 
-.bttn {
-    margin-top: 6rem !important;
+.btn-div {
+    margin-top: 3rem !important;
     display: flex;
     justify-content: center;
 }
 
-.form-select:focus{
+.form-select:focus {
     border-color: rgb(136, 136, 136) !important;
     box-shadow: none !important;
 }
 
-.row{
+.row {
     gap: 1rem;
 }
 
-.recentdonations{
+.recentdonations {
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 0.5rem;
 }
 
-.card-body{
+.card-body {
     display: flex;
     flex-direction: column;
 }
 
-.card-body2{
+.card-body2 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -77,14 +80,120 @@ input::placeholder {
     height: 50px;
     border-radius: 50%;
     border: 1px solid rgb(0, 0, 0) !important;
-    background-color: white; /* optional */
+    background-color: white;
+    /* optional */
     font-weight: 600;
 }
 
 
-.img3{
+.img3 {
     height: 30px;
     width: 30px;
 }
 
 
+@media (max-width: 380px) {
+    .RAD {
+        font-size: large;
+    }
+
+    .form-control {
+        height: 30px;
+    }
+
+    .form-label {
+        font-size: medium;
+        font-weight: 500;
+    }
+
+    .form-check {
+        margin-top: 1rem;
+    }
+
+    input::placeholder {
+        font-size: small;
+        font-weight: 300;
+        color: #9e9e9ef2 !important;
+    }
+
+    .form-control:focus {
+        border-color: rgb(97, 97, 97) !important;
+        box-shadow: 2px 2px 10px 1px rgb(165, 165, 165) !important;
+    }
+
+    .form-check-input:focus {
+        box-shadow: none !important;
+    }
+
+    .form-check-input {
+        border-color: #0000006e !important;
+    }
+
+    .form-check-label {
+        font-size: small;
+    }
+
+    .btn-div {
+        margin-top: 1rem !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-select:focus {
+        border-color: rgb(136, 136, 136) !important;
+        box-shadow: none !important;
+    }
+
+    .row {
+        gap: 1rem;
+    }
+
+    .recent-donations {
+        font-size: medium !important;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 0.5rem;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-body2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 15px;
+        font-size: small;
+    }
+
+    .count {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px solid rgb(0, 0, 0) !important;
+        background-color: white;
+        /* optional */
+        font-weight: 600;
+    }
+
+
+    .img3 {
+        height: 30px;
+        width: 30px;
+    }
+
+    .btn {
+        padding: 10px 20px !important;
+        color: black !important;
+        border: 1px solid rgba(0, 0, 0, 0.795) !important;
+        background-color: #ffffff9f !important;
+        transition: transform 0.3s ease-in-out !important;
+    }
+
+}

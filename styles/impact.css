@@ -1,10 +1,10 @@
-.userimg{
+.userimg {
     height: 7rem;
     border-radius: 50%;
     border: 1px solid rgb(0, 0, 0) !important;
 }
 
-.profile{
+.profile {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,7 +12,7 @@
     padding: 2rem;
 }
 
-.card-body{
+.card-body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,29 +27,29 @@
     width: 20rem;
 }
 
-.articles{
+.articles {
     display: flex;
     align-items: center;
     margin-bottom: 3rem;
 }
 
-.btn{
+.btn {
     border: 1px solid black !important;
     box-shadow: 1px 1px 5px 1px rgba(68, 59, 59, 0.432);
 }
 
-.high{
+.high {
     padding: 0.5rem;
     border: 1px solid rgb(124, 124, 124);
     border-radius: 1rem;
 }
 
-.resueimg{
+.resueimg {
     height: 50px;
     width: 100px;
 }
 
-.elements{
+.elements {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -57,23 +57,25 @@
     padding: 1rem;
 }
 
-.AAA{
+.Aw-Achmnts {
     margin-top: 2rem !important;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
-.teamimg{
+.team-img {
     height: 200px;
-    width: 290px;
+    width: 270px;
+    margin: 5px;
+    box-shadow: 0px 0px 16px 5px rgba(148, 142, 142, 0.603);
 }
 
-.info{
+.info {
     margin-top: 1rem;
     font-size: medium;
 }
 
 @media (max-width: 992px) {
-    
+
 }

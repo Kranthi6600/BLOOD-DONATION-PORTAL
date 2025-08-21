@@ -68,14 +68,57 @@ li {
         font-size: x-large !important;
     }
 
-    .bloodgroups{
+    .bloodgroups {
         display: none;
     }
-    .row{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    
-}
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+    }
 }
 
+
+@media (max-width: 992px) {
+    .commentsofblood {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 8rem;
+    }
+
+    .commentsofblood2 {
+        font-size: large;
+    }
+
+    h1 {
+        font-size: large !important;
+    }
+
+    .bloodgroups {
+        display: none;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .checkoutBg-title {
+        font-size: large;
+        text-align: center;
+    }
+
+    .ImOfBlo-title {
+        font-size: large;
+    }
+
+    li {
+        font-size: small;
+    }
+
+}
