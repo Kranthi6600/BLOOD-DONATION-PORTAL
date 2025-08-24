@@ -87,5 +87,17 @@
 }
 
 .option-item:hover{
-    background-color: #f5f5f5;
+    background-color: #ebe7e7d2;
+}
+
+.add-userDiv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.add-userImg{
+    margin-left: 5px;
 }

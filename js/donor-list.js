@@ -105,7 +105,7 @@ userTable.addEventListener('click', (e) => {
     
     const rect = e.target.getBoundingClientRect();
     optionsBox.style.top = `${rect.top + window.scrollY}px`;
-    optionsBox.style.left = `${rect.right + 8 + window.scrollX}px`;
+    optionsBox.style.left = `${rect.right + -110 + window.scrollX}px`;
     optionsBox.style.display = 'block';
   }
 });
@@ -119,8 +119,6 @@ document.addEventListener('click', (e) => {
 closeOptionsBtn.addEventListener('click', ()=> {
     optionsBox.style.display = 'none'  
 });
-
-
 
 const viewOption = document.getElementById('view-option');
 viewOption.addEventListener('click', ()=>{
