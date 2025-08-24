@@ -51,8 +51,6 @@ signupForm.addEventListener('submit', (e) => {
     }
 
     const minLength = password.length >= 8;
-    const hasUpper = /[A-Z]/.test(password);
-    const hasLower = /[a-z]/.test(password);
     const hasNumber = /\d/.test(password);
     const hasSpecial = /[@#$%&*?!]/.test(password);
 
@@ -60,13 +58,7 @@ signupForm.addEventListener('submit', (e) => {
         showMessage(capitalize('password should at least 8 characters long'), 'error')
         return;
     }
-    if (!hasUpper) {
-        showMessage(('Password must contain at least one Uppercase Letter'), 'error');
-    }
-    if (!hasLower) {
-        showMessage('Password must contain at least one lowercase letter', 'error');
-        return;
-    }
+
     if (!hasNumber) {
         showMessage('Password must contain at least one number', 'error');
         return;
@@ -96,7 +88,6 @@ signupForm.addEventListener('submit', (e) => {
     document.getElementById('message').textContent = '';
 
     alert(capitalize('hurray sign up successful'));
-
 
     signupForm.reset()
 

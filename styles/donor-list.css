@@ -1,0 +1,91 @@
+.table {
+    border: 1px solid rgba(122, 114, 114, 0.322);
+}
+
+.hamburger {
+    height: 10px;
+    width: 10px;
+    cursor: pointer;
+}
+
+.add-userImg {
+    cursor: pointer;
+    height: 30px;
+    width: auto;
+}
+
+.new-userForm {
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    gap: 2rem;
+}
+
+.add-userBtn:hover {
+    transform: scale(1.04);
+    box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.24);
+    transition: transform 0.4s ease;
+}
+
+.close-formBtn:hover {
+    transform: scale(1.04);
+    box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.24);
+    transition: transform 0.4s ease;
+}
+
+.new-userForm {
+    display: none;
+    /* hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(214, 210, 210, 0.37);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.new-userForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    gap: 1rem;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    height: auto;
+    width: auto;
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.466);
+}
+
+.new-userForm form input {
+    width: 400px;
+}
+
+.options-box{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;;
+    border-radius: 8px;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.247);
+    padding: 3px 0;
+    width: 100px;
+    z-index: 1000;
+}
+
+.option-item{
+    padding: 3px 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.option-item:hover{
+    background-color: #f5f5f5;
+}

@@ -146,7 +146,7 @@ a {
 }
 
 .log-out {
-    padding: 15px;
+    padding: 10px;
 }
 
 .logout-img {
@@ -155,15 +155,16 @@ a {
     margin-top: 8px;
 }
 
-.btn {
-    padding: 1px;
+.log-out-btn {
     display: flex;
     align-items: center;
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease;
+    border-radius: 10px;
 }
 
-.btn:hover {
+.log-out-btn:hover {
     transform: scale(1.04);
+    box-shadow: 0px 0px 10px 1px rgba(49, 49, 49, 0.616);
 }
 
 .logout-title {
